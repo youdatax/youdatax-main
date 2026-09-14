@@ -10,7 +10,7 @@
  *  Contributors:
  *       Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - initial API and implementation
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \core\common\connector-core
  */
 
 plugins {

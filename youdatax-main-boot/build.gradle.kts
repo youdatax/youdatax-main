@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - initial API and implementation
- *
+ * \core\common\boot
  */
 
 plugins {
