@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.core</groupId>
   <artifactId>youdatax-main-service-token</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-core-common-token</name>
   <description>yospace-core-common-token</description>
   

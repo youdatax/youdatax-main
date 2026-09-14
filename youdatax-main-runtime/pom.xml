@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.main</groupId>
   <artifactId>youdatax-main-runtime</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-core-common-runtime</name>
   <description>yospace-core-common-runtime</description>
 
