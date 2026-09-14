@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.core</groupId>
+  <artifactId>youdatax-main-service-token</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-core-common-token</name>
+  <description>yospace-core-common-token</description>
+  
+  <dependencies>
+<!--    implementation(project(":core:common:lib:token-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId> 
+        <artifactId>yospace-core-lib-token</artifactId>  
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    implementation(project(":core:common:lib:crypto-common-lib"))  -->
+      <dependency>
+        <groupId>com.yospace.core</groupId> 
+        <artifactId>yospace-core-lib-crypto</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+  
+<!--      junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "jupiter" }-->
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>6.0.1</version>
+        <scope>test</scope>
+      </dependency>  
+<!--    assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }-->
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.27.6</version>
+        <scope>test</scope>
+      </dependency>    
+<!--mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }-->
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.2.0</version>
+        <scope>test</scope>
+      </dependency>                 
+  </dependencies>         
+</project>
