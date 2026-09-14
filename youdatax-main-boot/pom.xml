@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.main</groupId>
+  <artifactId>youdatax-main-boot</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-core-common-boot</name>
+  <description>yospace-core-common-boot</description>
+
+  <dependencies>
+<!--    api(project(":spi:common:boot-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-boot</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    api(project(":spi:common:participant-context-single-spi"))-->
+      <dependency>
+        <groupId>com.yospace.participantcontext</groupId>
+        <artifactId>yospace-participant-context-spi-single</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":core:common:lib:boot-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-boot</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(libs.opentelemetry.api)  
+opentelemetry-api = { module = "io.opentelemetry:opentelemetry-api", version.ref = "opentelemetry" }-->
+      <dependency>
+        <groupId>io.opentelemetry</groupId>
+        <artifactId>opentelemetry-api</artifactId>
+        <version>1.32.0</version>
+      </dependency> 
+
+<!--    testImplementation(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>          
+<!--      junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "jupiter" }-->
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>6.0.1</version>
+        <scope>test</scope>
+      </dependency>          
+   </dependencies> 
+</project>
