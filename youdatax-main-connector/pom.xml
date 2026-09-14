@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.main</groupId>
+  <artifactId>youdatax-main-connector</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-core-common-connector</name>
+  <description>yospace-core-common-connector</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:participant-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-participant-agent</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":core:common:lib:http-lib"))-->
+      <dependency>
+        <groupId>com.yospace.common</groupId>
+        <artifactId>yospace-common-http-lib</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+<!--    implementation(project(":core:common:lib:keys-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId> 
+        <artifactId>yospace-core-lib-keys</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+<!--    implementation(project(":core:common:lib:policy-engine-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-policy-engine</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(libs.bouncyCastle.bcpkixJdk18on)
+    bouncyCastle-bcpkixJdk18on = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncyCastle-jdk18on" }-->
+      <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcpkix-jdk18on</artifactId>
+        <version>1.82</version>
+      </dependency>     
+<!--    implementation(libs.nimbus.jwt)
+    nimbus-jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus" }-->
+      <dependency>
+        <groupId>com.nimbusds</groupId>
+        <artifactId>nimbus-jose-jwt</artifactId>
+        <version>10.6</version>
+      </dependency>     
+<!--    implementation(libs.tink)
+    tink = { module = "com.google.crypto.tink:tink", version.ref = "tink" }-->
+      <dependency>
+        <groupId>com.google.crypto.tink</groupId>
+        <artifactId>tink</artifactId>
+        <version>1.19.0</version>
+      </dependency> 
+      
+<!--    testImplementation(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency> 
+<!--    testImplementation(libs.awaitility)  
+    awaitility = { module = "org.awaitility:awaitility", version.ref = "awaitility" }-->
+      <dependency>
+        <groupId>org.awaitility</groupId>
+        <artifactId>awaitility</artifactId>
+        <version>4.2.2</version>
+        <scope>test</scope>
+      </dependency>     
+   </dependencies>     
+</project>
