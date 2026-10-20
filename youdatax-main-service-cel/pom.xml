@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.main</groupId>
+  <artifactId>youdatax-main-service-cel</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-core-common-boot</name>
+  <description>yospace-core-common-boot</description>
+
+  <dependencies>
+<!--    api(project(":spi:common:cel-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-cel</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    api(project(":spi:common:transaction-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-transaction</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    api(project(":spi:control-plane:control-plane-spi"))-->
+      <dependency>
+        <groupId>com.yospace.controlplane</groupId>
+        <artifactId>yospace-control-plane-spi</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    api(project(":spi:policy-monitor:policy-monitor-spi"))-->
+      <dependency>
+        <groupId>com.yospace.policymonitor</groupId>
+        <artifactId>yospace-policy-monitor-spi</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    implementation(project(":core:common:lib:store-lib"))-->
+      <dependency>
+        <groupId>com.yospace.common</groupId>
+        <artifactId>yospace-common-store-lib</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>  
+<!--    implementation(libs.cel)
+cel = { module = "dev.cel:cel", version.ref = "cel" }-->
+      <dependency>
+        <groupId>dev.cel</groupId>
+        <artifactId>cel</artifactId> 
+        <version>0.11.1</version>
+      </dependency>  
+      
+<!--    testImplementation(project(":core:common:junit"))
+    testImplementation(testFixtures(project(":spi:common:cel-spi")))
+    testImplementation(project(":core:common:lib:query-lib"))-->
+     
+   </dependencies> 
+</project>
