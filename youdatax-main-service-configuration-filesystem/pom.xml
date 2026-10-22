@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.main</groupId>
   <artifactId>youdatax-main-service-configuration-filesystem</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5.0</version>
   <name>yospace-ext-common-configuration-filesystem</name>
   <description>yospace-ext-common-configuration-filesystem</description>
   

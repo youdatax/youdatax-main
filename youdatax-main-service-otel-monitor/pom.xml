@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.main</groupId>
   <artifactId>youdatax-main-service-otel-monitor</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5.0</version>
   <name>yospace-extensions-console-monitor</name>
   <description>yospace-extensions-console-monitor</description>
   
