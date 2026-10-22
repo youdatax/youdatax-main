@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.main</groupId>
+  <artifactId>youdatax-main-service-console-monitor</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <name>yospace-extensions-console-monitor</name>
+  <description>yospace-extensions-console-monitor</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:boot-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-boot</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>     
+  </dependencies>  
+</project>
