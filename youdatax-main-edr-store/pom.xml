@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.youdatax.core</groupId>
+  <groupId>org.youdatax.main</groupId>
   <artifactId>youdatax-main-edr-store</artifactId>
-  <version>0.0.4.0</version>
+  <version>0.0.5.0</version>
   <name>yospace-core-common-edr-store</name>
   <description>yospace-core-common-edr-store</description>
   
@@ -17,7 +17,7 @@
       <dependency>
         <groupId>org.eclipse.edc</groupId>
         <artifactId>transaction-spi</artifactId>
-        <version>0.17.0</version>
+        <version>0.18.0</version>
       </dependency>     
 <!--    implementation(project(":core:common:lib:store-lib"))-->
       <dependency>
