@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \extensions\common\configuration\configuration-filesystem
  */
 
 plugins {
