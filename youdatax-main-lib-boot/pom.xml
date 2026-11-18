@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.main</groupId>
+  <artifactId>youdatax-main-lib-boot</artifactId>
+  <version>0.0.6-SNAPSHOT</version>
+  <name>yospace-core-common-lib-boot</name>
+  <description>yospace-core-common-lib-boot</description>
+
+  <dependencies>
+<!--    api(project(":spi:common:boot-spi"))-->
+      <dependency>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-boot</artifactId>
+        <version>0.0.3.0</version>
+      </dependency>
+<!--    api(project(":spi:common:connector-participant-context-spi"))-->
+      <dependency>
+        <groupId>org.youdatax.participant</groupId>
+        <artifactId>youdatax-participant-context-spi-core</artifactId>  
+        <version>0.0.4.0</version>
+      </dependency>
+      
+<!--    testImplementation(libs.awaitility)  
+awaitility = { module = "org.awaitility:awaitility", version.ref = "awaitility" }-->
+      <dependency>
+        <groupId>org.awaitility</groupId>
+        <artifactId>awaitility</artifactId>
+        <version>4.2.2</version>
+        <scope>test</scope>
+      </dependency>  
+<!--    testImplementation(project(":core:common:lib:json-lib"))   -->     
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-lib</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>           
+<!--junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "jupiter" }-->
+       <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>6.0.1</version>
+        <scope>test</scope>
+      </dependency>  
+<!--    assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }-->
+      <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.27.6</version>
+        <scope>test</scope>
+      </dependency>   
+<!--mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }-->
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>5.2.0</version>
+        <scope>test</scope>
+      </dependency>                        
+  </dependencies>  
+</project>

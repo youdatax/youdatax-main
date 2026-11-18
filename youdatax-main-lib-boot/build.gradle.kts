@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \core\common\lib\boot-lib
  */
 
 plugins {
